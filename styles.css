@@ -40,7 +40,7 @@ img {
 
 .cards_wrap .card_top {
   width: 100%;
-  min-height: 225px;
+  height: auto;
   padding: 10px;
   padding-bottom: 0;
 }
@@ -83,9 +83,6 @@ img {
 }
 
 @media (max-width: 528px) {
-  .cards_wrap .card_top {
-    height: auto;
-  }
   .cards_wrap .card_item {
     width: 100%;
   }
